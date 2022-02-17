@@ -1,0 +1,37 @@
+.header{
+    padding-top: 2rem;
+    font-weight: 600;
+}
+
+.main-content{
+    padding: 3rem;
+}
+
+.quiz-categories{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    margin-bottom: 2rem;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.quiz-img{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 1/1;
+}
+
+.quiz-action-btn{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--secondary-hover);
+}
