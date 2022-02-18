@@ -2,12 +2,9 @@
     padding: 2rem 20rem;
 }
 
-.questions{
-    padding-top: 1rem;
-}
-
-.question-text{
+.questions, .question-text{
     padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .question-option{
